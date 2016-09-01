@@ -1,0 +1,2 @@
+在指令中，如果加了replace:true这个属性，则表示指令的模版会取代指令所挂在的元素上，如'<div tabs></div>'，指令tabs模版的内容是'<input />'当tabs指令的replace为true的时候，
+'<div tabs></div>'在控制台审查元素输出的是'<input tabs="" class="ng-isolate-scope">'，当replace为false的时候，则输出'<div tabs="" class="ng-isolate-scope"><input></div>'
